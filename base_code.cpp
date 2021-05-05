@@ -5,5 +5,5 @@ base()
 
 base1()
 {
-	// base1 stuff
+	// base1 functions etc.
 }
