@@ -1,5 +1,8 @@
 name: Generate Documentation with Sphinx
-on: push
+on:
+  push:
+    branches:
+      - main
 
 env:
   MODULE_PATHS: src src2
