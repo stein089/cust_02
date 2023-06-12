@@ -19,3 +19,5 @@ sed "s/Contents:/Contents:\n\n   $SOURCE_FILES/g" $SOURCE_DIR/index.tmpl.rst > $
 
 # Generate html documentation from source files
 sphinx-build -b html $SOURCE_DIR $BUILD_DIR
+
+#test
