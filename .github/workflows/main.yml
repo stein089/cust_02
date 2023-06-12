@@ -1,6 +1,9 @@
 name: Generate Documentation with Sphinx
 on: push
 
+env:
+  MODULE_PATHS: src src2
+
 jobs:
   doc-gen:
     runs-on: ubuntu-latest
