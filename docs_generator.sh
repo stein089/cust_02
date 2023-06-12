@@ -2,7 +2,7 @@
 
 MODULE_PATHS=$@
 SOURCE_DIR=docs/source
-BUILD_DIR=docs/build
+BUILD_DIR=docs/_build
 
 
 for MODULE_PATH in $MODULE_PATHS
